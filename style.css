@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.mfpl {
+  background: #000000;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+.about {
+  background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-info {
+  text-align: center;
+}
+
+.cv-header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
+
+.cv-contact {
+  background-color: #fff;
+  color: #343a40;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cv-section {
+  background-color: #fff;
+  color: #343a40;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cv-section h3 {
+  margin-top: 0;
+}
+
+.cv-section p {
+  margin-bottom: 10px;
+}
+
+.cv-section ul {
+  padding-left: 20px;
+}
+
+.cv-section ul li {
+  margin-bottom: 5px;
+}
+
+.cv-section .cv-subsection {
+  margin-top: 20px;
+}
+
+.cv-section .cv-subsection h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.cv-section .cv-subsection p {
+  margin-bottom: 10px;
+}
+
+.cv-skills {
+  background-color: #fff;
+  color: #343a40;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cv-skills p {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  margin: 3.5rem 0;
+}
+.image-container .card {
+  background-color: #000000;
+  border: none !important;
+}
+.image-container .card img {
+  /* height: 700px; */
+  width: auto;
+  object-fit: cover;
+}
+.image-container .card h4 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.image-container .card .movie-dec {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
+.image-container .card .movie-dec .year {
+  color: #c5c5c5;
+  font-size: 1.5rem;
+}
+.image-container .card .movie-dec .star {
+  color: yellow;
+  font-size: 1.4rem;
+} /*# sourceMappingURL=style.css.map */
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+}
+.lead {
+  font-size: 2rem;
+}
